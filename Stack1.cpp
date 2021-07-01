@@ -15,11 +15,11 @@ private:
 	int iSize;
 
 public:
-	Stack();		  // Constructor
-	~Stack();		  // Destructor
-	void Push(int);  // void InsertFirst(int)
-	int Pop();		 // void DeleteFirst()
-	int Peek();      // Just return the value without removing the node
+	Stack();		 
+	~Stack();		 
+	void Push(int);  
+	int Pop();		
+	int Peek();     
 	void Display();
 	int Count();
 };
