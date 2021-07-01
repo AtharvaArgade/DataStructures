@@ -15,17 +15,17 @@ private:
 	int iSize;
 
 public:
-	Stack();		  // Constructor
-	~Stack();		  // Destructor
-	void Push(int);  // void InsertFirst(int)
-	int Pop();		 // void DeleteFirst()
+	Stack();		 
+	~Stack();		  
+	void Push(int);  
+	int Pop();		 
 	void Display();
 	int Count();
 };
 
 Stack :: Stack()
 {
-	this->Head = NULL;     // Head = NULL;
+	this->Head = NULL;    
 	this->iSize = 0;
 }
 
