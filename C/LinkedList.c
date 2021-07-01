@@ -200,7 +200,7 @@ int main()
         printf("1 : Insert node at first position\n");
         printf("2 : Insert node at last position\n");
         printf("3 : Insert node at given position\n");
-		printf("4 : Delete first node\n");
+	printf("4 : Delete first node\n");
         printf("5 : Delete last node\n");
         printf("6 : Delete node at given position\n");
         printf("7 : Display the contents of linked list\n");
@@ -263,9 +263,9 @@ int main()
                 printf("Please enter valid option \n");
                 break;
 
-        } // End of switch
-    } // End of while
+        } 
+    } 
 
     return 0;
 
-} // End of main
+} 
